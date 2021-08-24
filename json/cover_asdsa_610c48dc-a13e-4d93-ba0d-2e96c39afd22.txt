@@ -1,0 +1,1 @@
+["<font style=\"background-color:yellow;\"><font style=\"color:red;\"> &lt;causal-relation&gt; </font>This is Test <font style=\"color:purple;\"> &lt;trigger&gt as &lt/trigger&gt </font>This is Test<font style=\"color:red;\"> &lt/causal-relation&gt </font> </font>"]
