@@ -45,7 +45,7 @@ let userName = 'Default';
 let stoppedWordList = [];
 
 router.get("/", function (req, res) {
-    res.status(200).json({ "message": "API is up!"});
+    res.status(200).json({ "message": "API is up!" });
 })
 
 router.get("/download/:id", function (req, res) {
@@ -111,6 +111,7 @@ router.post("/upload", function (req, res) {
 
 router.post("/process", function (req, res) {
     console.log("/process Api is called");
+    req.headers["access-control-allow-origin"] = "*";
     if (req.body) {
         if (req.body.fileName) {
 
